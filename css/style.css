@@ -335,6 +335,7 @@
 }
 
 .testimonial-carousel .owl-dots .owl-dot {
+  display: none;
   width: 60px;
   height: 60px;
   margin: 0 5px;
@@ -342,20 +343,7 @@
   background: var(--secondary);
   transition: 0.5s;
 }
-
-.testimonial-carousel .owl-dots .owl-dot.active {
-  width: 100px;
-  height: 100px;
-}
-
-.testimonial-carousel .owl-dots .owl-dot img {
-  opacity: 0.1;
-  transition: 0.5s;
-}
-
-.testimonial-carousel .owl-dots .owl-dot.active img {
-  opacity: 1;
-}
+/* Testimonial End */
 
 /*** Footer ***/
 .footer .btn.btn-link {
