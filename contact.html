@@ -8,7 +8,7 @@
     <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon" />
+    <link href="images/favicon.ico" rel="icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -91,7 +91,7 @@
 
     <!-- Page Header Start -->
     <div
-      class="container-fluid page-header py-5 mb-5 wow fadeIn"
+      class="container-fluid page-header-contact py-5 mb-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
       <div class="container text-center py-5">
@@ -117,10 +117,15 @@
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
             <div class="bg-secondary p-5">
               <p class="d-inline-block bg-dark text-primary py-1 px-4">
-                Contact Us
+                Contact
               </p>
-              <h1 class="mb-4">Have Any Query? Please Contact Us!</h1>
-              <form>
+              <h1 class="mb-4">Contact Dr Musila!</h1>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="b8996d6d-e443-4d29-ada5-7d4e8137c19c"
+                />
                 <div class="row g-3">
                   <div class="col-md-6">
                     <div class="form-floating">
@@ -168,18 +173,23 @@
                   </div>
                   <div class="col-12">
                     <button class="btn btn-primary w-100 py-3" type="submit">
-                      Send Message
+                      Send Message <i class="bi bi-arrow-right"></i>
                     </button>
                   </div>
                 </div>
               </form>
+              <script
+                src="https://web3forms.com/client/script.js"
+                async
+                defer
+              ></script>
             </div>
           </div>
           <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
             <div class="h-100" style="min-height: 400px">
               <iframe
                 class="google-map w-100 h-100"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d288.0314935757261!2d36.82325639278774!3d-1.2762305164341448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f16d6e5430f77%3A0x4d51c5efd1d773ee!2sNgara%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1718105122180!5m2!1sen!2ske"
                 frameborder="0"
                 allowfullscreen=""
                 aria-hidden="false"
@@ -198,85 +208,57 @@
 
     <!-- Footer Start -->
     <div
-      class="container-fluid bg-secondary text-light footer mt-5 pt-5 wow fadeIn"
+      class="container-fluid bg-secondary text-light footer pt-5 wow fadeIn"
       data-wow-delay="0.1s"
     >
       <div class="container py-5">
         <div class="row g-5">
           <div class="col-lg-4 col-md-6">
-            <h4 class="text-uppercase mb-4">Get In Touch</h4>
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+              <h1 class="mb-0 text-primary">
+                <i class="fa fa-hat-wizard me-3"></i>Dr Musila
+              </h1>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <h4 class="mb-4">Get In Touch</h4>
             <div class="d-flex align-items-center mb-2">
               <div class="btn-square bg-dark flex-shrink-0 me-3">
                 <span class="fa fa-map-marker-alt text-primary"></span>
               </div>
-              <span>123 Street, New York, USA</span>
+              <span>Ngara, Nairobi, Kenya</span>
             </div>
             <div class="d-flex align-items-center mb-2">
               <div class="btn-square bg-dark flex-shrink-0 me-3">
                 <span class="fa fa-phone-alt text-primary"></span>
               </div>
-              <span>+012 345 67890</span>
+              <span>+254759510935</span>
             </div>
             <div class="d-flex align-items-center">
               <div class="btn-square bg-dark flex-shrink-0 me-3">
                 <span class="fa fa-envelope-open text-primary"></span>
               </div>
-              <span>info@example.com</span>
+              <span>drmusila@musilawitchdoctor.com</span>
             </div>
           </div>
           <div class="col-lg-4 col-md-6">
-            <h4 class="text-uppercase mb-4">Quick Links</h4>
-            <a class="btn btn-link" href="">About Us</a>
-            <a class="btn btn-link" href="">Contact Us</a>
-            <a class="btn btn-link" href="">Our Services</a>
-            <a class="btn btn-link" href="">Terms & Condition</a>
-            <a class="btn btn-link" href="">Support</a>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <h4 class="text-uppercase mb-4">Newsletter</h4>
-            <div class="position-relative mb-4">
-              <input
-                class="form-control border-0 w-100 py-3 ps-4 pe-5"
-                type="text"
-                placeholder="Your email"
-              />
-              <button
-                type="button"
-                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
-              >
-                SignUp
-              </button>
-            </div>
-            <div class="d-flex pt-1 m-n1">
-              <a class="btn btn-lg-square btn-dark text-primary m-1" href=""
-                ><i class="fab fa-twitter"></i
-              ></a>
-              <a class="btn btn-lg-square btn-dark text-primary m-1" href=""
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-lg-square btn-dark text-primary m-1" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a class="btn btn-lg-square btn-dark text-primary m-1" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
+            <h4 class="mb-4">Quick Links</h4>
+            <a class="btn btn-link" href="about.html">About Dr Musila</a>
+            <a class="btn btn-link" href="service.html">Dr Musila Services</a>
+            <a class="btn btn-link" href="contact.html">Contact Dr Musila</a>
+            <a class="btn btn-link" href="https://wa.me/+254759510935"
+              >WhatsApp</a
+            >
           </div>
         </div>
       </div>
       <div class="container">
         <div class="copyright">
-          <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-              &copy; <a class="border-bottom" href="#">Your Site Name</a>, All
+          <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="index.html">2025 Dr Musila</a>.All
               Right Reserved.
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-              Designed By
-              <a class="border-bottom" href="https://htmlcodex.com"
-                >HTML Codex</a
-              >
             </div>
           </div>
         </div>

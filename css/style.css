@@ -69,14 +69,17 @@
   margin-left: 8px;
 }
 
-.navbar .navbar-nav .nav-link {
+.navbar .navbar-nav {
+  margin-right: 50px;
+}
+.navbar .nav-link {
   margin-right: 30px;
   padding: 40px 0;
   color: var(--light);
   font-family: "Oswald", sans-serif;
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  /* text-transform: uppercase; */
   outline: none;
 }
 
@@ -238,9 +241,19 @@
   }
 }
 
-.page-header {
+.page-header-about {
   background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
-    url(../img/carousel-1.jpg) center center no-repeat;
+    url(../images/About-header.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-service {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(../images/loveSpell.jpg) center center no-repeat;
+  background-size: cover;
+}
+.page-header-contact {
+  background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+    url(../images/spiritual\ cleansing.jpg) center center no-repeat;
   background-size: cover;
 }
 
