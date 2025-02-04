@@ -1,4 +1,5 @@
 /********** Template CSS **********/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 :root {
   --primary: #eb1616;
   --secondary: #191c24;
@@ -397,4 +398,78 @@
 
 .footer .copyright a:hover {
   color: var(--primary);
+}
+
+/* SOCIAL ICONS */
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.icons a {
+  background: #ecf0f3;
+  position: relative;
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: -3px -3px 6px #ffffff, 3px 3px 5px #ceced1;
+}
+.icons a:hover {
+  box-shadow: inset -3px -3px 7px #ffffff, inset 3px 3px 5px #ceced1;
+}
+.icons a i {
+  font-size: 25px;
+}
+.icons a:hover i {
+  transform: scale(0.9);
+}
+.icons a.fb i {
+  color: #4267b2;
+}
+.icons a.twitter i {
+  color: #1da1f2;
+}
+.icons a.insta i {
+  color: #e1306c;
+}
+.icons a.git i {
+  color: #333;
+}
+.icons a.yt i {
+  color: #ff0000;
+}
+
+/* Sticky icons for mobile view */
+@media (max-width: 768px) {
+  .sticky-icons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #191c24;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .icons a {
+    height: 45px;
+    width: 45px;
+    box-shadow: none;
+  }
+  .icons a i {
+    font-size: 17px;
+  }
 }
