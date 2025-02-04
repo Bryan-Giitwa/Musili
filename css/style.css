@@ -459,14 +459,14 @@
     left: 0;
     width: 100%;
     background: #191c24;
-    padding: 10px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   }
   .icons a {
-    height: 45px;
-    width: 45px;
+    height: 60px;
+    width: 60px;
     box-shadow: none;
   }
   .icons a i {
